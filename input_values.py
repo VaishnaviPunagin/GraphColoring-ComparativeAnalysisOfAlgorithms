@@ -1,4 +1,3 @@
-
 n = int(input("Enter number of colours : "))
 colors = []
 for i in range(0, n):
