@@ -65,5 +65,5 @@ end = time.time()
 
 tt=end-start
 # total time taken
-print("Runtime of the program is")
+print("The time taken by the backtracking algorithm is : ")
 print(tt)
