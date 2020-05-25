@@ -52,4 +52,4 @@ main()
 time.sleep(1)
 end = time.time()
 tt = end-start
-print("The time taken by the greedy method algorithm %d" % tt)
+print("The time taken by the greedy method algorithm %f" % tt)
