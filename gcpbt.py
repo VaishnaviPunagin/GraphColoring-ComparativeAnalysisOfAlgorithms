@@ -36,22 +36,23 @@ def graphColoringUtil(graph, color_nb, colors, n):
 #    | /   |
 #   (0)---(1)
 
-vertex_nb = 4
+vertex_nb = 5
 # nb of colors
-color_nb = 3
+color_nb = 4
 # Initiate vertex colors
 colors = [0] * vertex_nb
 
 graph = [
-    [0, 1, 1, 1],
-    [1, 0, 1, 0],
-    [1, 1, 0, 1],
-    [1, 0, 1, 0],
+	[0,0,1,1,0],
+	[0,0,0,1,1],
+	[1,0,0,0,1],
+	[1,1,0,0,0],
+	[0,1,1,0,0],
 ]
 
 #beginning with vertex 0
 if graphColoringUtil(graph, color_nb, colors, 0):
-    print (colors)
+    print()
 else:
     print ("No solutions")
 
@@ -65,5 +66,6 @@ end = time.time()
 
 tt=end-start
 # total time taken
-print("The time taken by the backtracking algorithm is : ")
-print(tt)
+
+print("Backtracking Algorithm : %f" %tt)
+print()
