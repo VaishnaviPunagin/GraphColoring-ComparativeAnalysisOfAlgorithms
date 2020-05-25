@@ -1,10 +1,18 @@
 import matplotlib.pyplot as plt
+print("------------------------------------------")
+print("Analysis section of the graph coloring problem")
+print("We use 3 different algorithms!")
+print("Now, come, give us the data!")
+print("------------------------------------------")
 from gcpgy import tt
 gtt=tt
-from gcpbt import tt
-btt=tt
+
 from gcpwp import tt
 wtt=tt
+
+from gcpbt import tt
+btt=tt
+
 import numpy as np
 
 alg=['greedy', 'backtracking','welshpowell']
