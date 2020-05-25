@@ -45,6 +45,9 @@ def get_color_for_state(state):
 def main():
     for state in nodes:
         colors_of_states[state] = get_color_for_state(state)
+    print()
+    print("------------------------------------------")
+    print("This is the final colored output graph :: ")
     print(colors_of_states)
 
 
@@ -52,4 +55,10 @@ main()
 time.sleep(1)
 end = time.time()
 tt = end-start
-print("The time taken by the greedy method algorithm %f" % tt)
+print()
+print("------------------------------------------------")
+print("Total time taken to solve the entered graph is :")
+print("------------------------------------------------")
+print()
+print("Greedy Algorithm : %f" % tt)
+print()
