@@ -1,16 +1,10 @@
-n = int(input("Enter number of colours : "))
-colors = []
-for i in range(0, n):
-    print("Enter the %d color:" % (i+1))
-    ele = input()
-    colors.append(ele)
-print(colors)
+
+colors = ["r","b","g","y"]
+
 x = int(input("Enter number of nodes : "))
 nodes = []
 for i in range(0, x):
-    print("Enter the %d node " % (i+1))
-    ele = int(input())
-    nodes.append(ele)
+    nodes.append(i+1)
 print(nodes)
 neighbors = {}
 for i in range(0, x):
